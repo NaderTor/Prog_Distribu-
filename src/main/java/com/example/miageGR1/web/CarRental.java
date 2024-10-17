@@ -13,6 +13,7 @@ public class CarRental {
 
     List<Car> cars = new ArrayList<Car>();
 
+    //Liste des voitures
     public CarRental() {
         cars.add(new Car("11AA22", 1000));
         cars.add(new Car("33CCDD", 3000));
